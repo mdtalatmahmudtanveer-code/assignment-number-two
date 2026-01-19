@@ -1,1 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(assets/hero-bg.png); 
+    
+    color: white;
+    line-height: 1.6;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: rgba(133, 88, 236, 0.9);
 
+}
+.nav-links{
+     list-style: none;
+     display: flex;
+     gap: 30px;
+     
+}
